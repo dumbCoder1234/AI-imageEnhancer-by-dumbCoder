@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Rajdhani:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+/*! header */
+
+.header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.header h3 {
+    opacity: 0.6;
+    font-size: 1rem;
+}
+
+
+/*! image upload */
+
+.image-upload {
+    background-color: #f0f0f0;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.upload {
+    cursor: pointer;
+    border: 2px dashed #ccc;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.upload:hover {
+    background-color: #ffffff;
+    border-color: #ccc;
+}
+
+
+/*! image preview */
+
+.image-preview {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.original-image,
+.enhanced-image {
+    text-align: center;
+}
+
+.no-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    opacity: 0.7;
+    width: 270px;
+    height: 350px;
+    background-color: #f0f0f0;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+}
+
+.original-image h2,
+.enhanced-image h2 {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+}
+
+.original-image h2 {
+    background-color: rgb(77, 77, 77);
+}
+
+.enhanced-image h2 {
+    background-color: rgb(62, 113, 244);
+}
+
+img {
+    object-fit: cover;
+    width: 450px;
+    min-height: 350px;
+}
+
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #230a55;
+}
+
+/*! footer */
+
+.footer {
+    text-align: center;
+    opacity: 0.6;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
