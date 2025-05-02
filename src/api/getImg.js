@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "wxeguge8ckmgjtk6n";
+const API_KEY = "USE YOUR OWN KEY FOR FREE FROM PICWISH (50 CREDITS)";
 const BASE_URL = "https://techhk.aoscdn.com";
 
 export const enhancedImgApi = async (file) => {
